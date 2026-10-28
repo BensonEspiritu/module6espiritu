@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.DevFolioSE" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary_emerald</item>
+        <item name="colorOnPrimary">@color/text_on_primary</item>
+        <item name="colorSecondary">@color/secondary_teal</item>
+    </style>
+
+    <style name="Theme.Module6espiritu" parent="Theme.DevFolioSE" />
+</resources>

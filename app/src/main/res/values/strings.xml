@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DevFolio SE</string>
+    <string name="hello_world">Hello World!</string>
+
+    <!-- Spinner Array for UI 2 (Registration Form) -->
+    <string-array name="tech_domains_array">
+        <item>Native Android Development (Kotlin / XML)</item>
+        <item>Software Engineering &amp; System Architecture</item>
+        <item>Web &amp; Queue Management Systems (Full-Stack)</item>
+        <item>Data Structures &amp; Algorithms (C++ / Java)</item>
+        <item>Formal Automata &amp; Desktop Simulation</item>
+    </string-array>
+
+    <!-- UI 1: Welcome Activity -->
+    <string name="cd_devfolio_logo">DevFolio Application Logo</string>
+    <string name="welcome_app_name">DEVFOLIO SE</string>
+    <string name="student_name">Benson P. Espiritu</string>
+    <string name="student_program">BS Computer Science – Software Engineering \nFEU Institute of Technology</string>
+    <string name="welcome_title">Welcome to My Engineering Portfolio</string>
+    <string name="welcome_bio">Explore my academic software engineering projects, mobile architecture case studies, and technical stack in Kotlin, Java, C++, and Python. Built for recruiters, faculty reviewers, and project collaborators.</string>
+    <string name="badge_android_sdk">Android SDK</string>
+    <string name="badge_kotlin_java">Kotlin &amp; Java</string>
+    <string name="badge_systems_qa">Systems &amp; QA</string>
+    <string name="cd_spotlight_icon">Spotlight Project Icon</string>
+    <string name="spotlight_label">CURRENT THESIS FOCUS (CS0025)</string>
+    <string name="spotlight_title">ReelOrganizer: Weighted-Scoring Video Resurfacer</string>
+    <string name="btn_explore_dashboard">Explore Portfolio Dashboard</string>
+    <string name="btn_open_inquiry_form">Recruiter &amp; Project Inquiry Form</string>
+    <string name="btn_quick_contact">Direct Contact &amp; GitHub Links</string>
+
+    <!-- UI 2: Registration Activity -->
+    <string name="cd_registration_form_icon">Registration Form Icon</string>
+    <string name="form_header_title">Recruiter &amp; Collaborator Form</string>
+    <string name="form_instructions">Register your details to request a project brief or schedule an interview with Benson.</string>
+    <string name="section_identity">1. YOUR CONTACT INFORMATION</string>
+    <string name="label_name">Full Name *</string>
+    <string name="hint_visitor_name">e.g., Engr. Maria Santos</string>
+    <string name="label_email">Email Address *</string>
+    <string name="hint_visitor_email">e.g., maria.santos@techcorp.ph</string>
+    <string name="label_organization">Company / University / Organization *</string>
+    <string name="hint_organization">e.g., FEU Tech / Innovations Lab Inc.</string>
+    <string name="section_parameters">2. COLLABORATION &amp; ROLE PARAMETERS</string>
+    <string name="label_inquiry_type">Engagement Type (RadioGroup)</string>
+    <string name="rb_internship_offer">Software Engineering Internship (520 hrs)</string>
+    <string name="rb_capstone_collab">Academic / Thesis Research Collaboration</string>
+    <string name="rb_freelance_build">Freelance Android / Web Project Build</string>
+    <string name="label_tech_domain">Target Technical Domain (Spinner)</string>
+    <string name="label_deliverables">Requested Portfolio Package (CheckBoxes)</string>
+    <string name="cb_request_resume">Full Technical Resume &amp; Coursework Transcript Summary</string>
+    <string name="cb_source_code_access">GitHub Repository &amp; Architecture Documentation</string>
+    <string name="cb_schedule_interview">Request 15-Minute Technical Walkthrough Call</string>
+    <string name="sw_urgent_priority">Mark as Priority / Immediate Start Inquiry</string>
+    <string name="label_project_notes">Project Brief or Additional Notes</string>
+    <string name="hint_project_notes">Describe the role, timeline, or project scope&#8230;</string>
+    <string name="btn_clear_form">Clear / Reset</string>
+    <string name="btn_submit_registration">Submit &amp; Continue</string>
+
+    <!-- UI 3: Dashboard Activity -->
+    <string name="cd_profile_icon">Developer Profile Icon</string>
+    <string name="dashboard_heading">Portfolio Dashboard</string>
+    <string name="dashboard_subheading">Benson P. Espiritu • BSCS-SE (FEU Tech)</string>
+    <string name="metric_projects_count">4+</string>
+    <string name="metric_languages_count">5</string>
+    <string name="metric_specialization">BSCS-SE</string>
+    <string name="metric_label_core_systems">Core Systems</string>
+    <string name="metric_label_languages">Languages</string>
+    <string name="metric_label_track">Track (TN02)</string>
+    <string name="menu_section_label">PORTFOLIO MODULES &amp; NAVIGATION</string>
+    <string name="cd_projects_icon">Projects Icon</string>
+    <string name="card_projects_title">Featured SE Projects &amp; Case Studies</string>
+    <string name="card_projects_desc">ReelOrganizer (Kotlin/Room), AutomataQuest (CFG/FA), WebQueue, and C++ Karaoke Rental System.</string>
+    <string name="btn_menu_case_study">View Project Details &amp; Inquiry Summary</string>
+    <string name="cd_registration_icon">Registration Icon</string>
+    <string name="card_registration_title">Recruiter &amp; Collaborator Inquiry Form</string>
+    <string name="card_registration_desc">Submit internship offers, project briefs, and technical evaluation requests.</string>
+    <string name="btn_menu_register_inquiry">Open Inquiry Registration Form</string>
+    <string name="cd_contact_share_icon">Contact and Share Icon</string>
+    <string name="card_contact_title">Direct Contact, GitHub &amp; Share Hub</string>
+    <string name="card_contact_desc">Compose emails, share portfolio links, launch GitHub repositories, or view FEU Tech location.</string>
+    <string name="btn_menu_contact_share">Open Contact &amp; Share Screen</string>
+    <string name="btn_menu_back_welcome">Back to Welcome Screen</string>
+
+    <!-- UI 4: Details Activity -->
+    <string name="cd_details_header_icon">Project Details Icon</string>
+    <string name="details_screen_title">Project Case Studies &amp; Details</string>
+    <string name="details_screen_subtitle">Architecture Specs &amp; Transmitted Inquiry Data</string>
+    <string name="cd_architecture_banner">ReelOrganizer Architecture Visual</string>
+    <string name="flagship_badge">FLAGSHIP ANDROID THESIS (CS0025)</string>
+    <string name="flagship_title">ReelOrganizer: Short-Form Video Resurfacer</string>
+    <string name="flagship_overview">A local-first native Android application built in Kotlin (API 26+) that captures shared video links via ACTION_SEND, organizes them in a Room SQLite database, and resurfaces forgotten learning content using a balanced weighted-scoring algorithm and WorkManager digests.</string>
+    <string name="label_spec_stack">Stack: </string>
+    <string name="spec_stack_val">Kotlin, Android SDK, Room SQLite, WorkManager</string>
+    <string name="label_spec_algorithm">Algorithm: </string>
+    <string name="spec_algorithm_val">Score = 0.30*Value + 0.70*[(1-B)*Rot + B*Engage] - 0.25*Fatigue</string>
+    <string name="label_spec_other_projects">Other Works: </string>
+    <string name="spec_other_projects_val">AutomataQuest (FA/CFG), WebQueue, C++ Karaoke Rental System</string>
+    <string name="received_section_header">SUBMITTED INQUIRY BRIEF (MODULE 7 BUNDLE TARGET)</string>
+    <string name="received_helper_note">In Module 7, data entered in RegistrationActivity will populate the fields below via Intent Extras / Bundle:</string>
+    <string name="received_name_default">Visitor Name: [Awaiting Registration Bundle]</string>
+    <string name="received_email_default">Email Address: [Awaiting Registration Bundle]</string>
+    <string name="received_org_default">Organization: [Awaiting Registration Bundle]</string>
+    <string name="received_inquiry_type_default">Engagement Type: Software Engineering Internship</string>
+    <string name="received_domain_default">Target Domain: Native Android Development (Kotlin / XML)</string>
+    <string name="received_deliverables_default">Requested Package: Technical Resume &amp; GitHub Access</string>
+    <string name="received_priority_default">Priority Status: Standard</string>
+    <string name="received_notes_default">Project Notes: Ready to receive multi-line notes from Intent Bundle.</string>
+    <string name="btn_back_from_details">Return to Portfolio Dashboard</string>
+
+    <!-- UI 5: Contact Activity -->
+    <string name="cd_contact_header_icon">Contact Screen Icon</string>
+    <string name="contact_screen_heading">Contact, Share &amp; External Hub</string>
+    <string name="contact_screen_subheading">Direct Communication &amp; External Actions</string>
+    <string name="directory_label">DEVELOPER CONTACT CHANNELS</string>
+    <string name="cd_email_icon">Email Icon</string>
+    <string name="contact_email">parinasbenson000@gmail.com</string>
+    <string name="cd_web_icon">Website Icon</string>
+    <string name="contact_github">https://github.com/benson-espiritu</string>
+    <string name="cd_location_icon">Location Icon</string>
+    <string name="contact_location">FEU Institute of Technology, Sampaloc, Manila</string>
+    <string name="composer_label">PREPARE EMAIL OR SHARE MESSAGE</string>
+    <string name="label_email_subject">Email Subject</string>
+    <string name="hint_email_subject">e.g., Software Engineering Internship Inquiry</string>
+    <string name="default_email_subject">SE Portfolio Inquiry – Benson Espiritu</string>
+    <string name="label_email_body">Message / Share Payload</string>
+    <string name="hint_email_body">Enter message to send via email or share&#8230;</string>
+    <string name="default_email_body">Hi Benson, I reviewed your DevFolio SE Android portfolio and would love to discuss a software engineering opportunity.</string>
+    <string name="btn_action_send_email">Send Email to Benson</string>
+    <string name="btn_action_share_portfolio">Share Portfolio Summary</string>
+    <string name="btn_action_open_github">Open GitHub / Portfolio Website</string>
+    <string name="btn_action_view_map">View Campus Location (FEU Tech)</string>
+    <string name="btn_back_from_contact">Back to Portfolio Dashboard</string>
+</resources>
