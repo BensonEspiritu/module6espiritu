@@ -65,7 +65,7 @@
     <string name="metric_specialization">BSCS-SE</string>
     <string name="metric_label_core_systems">Core Systems</string>
     <string name="metric_label_languages">Languages</string>
-    <string name="metric_label_track">Track (TN02)</string>
+    <string name="metric_label_track">Track</string>
     <string name="menu_section_label">PORTFOLIO MODULES &amp; NAVIGATION</string>
     <string name="cd_projects_icon">Projects Icon</string>
     <string name="card_projects_title">Featured SE Projects &amp; Case Studies</string>
